@@ -21,8 +21,8 @@
   <body>
     <nav class="navbar navbar-expand-sm navbar-light border fixed-top" style = "height:54px; background-color: white;" >
         <div class = "container">
-          <div class="logo" > 
-            <!-- style ="margin-left: 192px;" -->
+          <div class="logo d-flex justify-content-center"  style ="margin-left: 192px;" > 
+           
             <a class="navbar-brand" href="#"><img
                 src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/></a>
               <button
@@ -36,26 +36,26 @@
                 <span class="navbar-toggler-icon mr-5"></span>
               </button>
       </div>
-      <div class="collapse navbar-collapse ml-5 d-flex justify-content-between">
-        <form class="form-inline my-2 my-lg-0 d-none d-sm-block">
+      <div class="collapse navbar-collapse ml-5 d-flex justify-content-center">
+        <form class="form-inline my-lg-0 d-none d-sm-block">
           <input
-            class="form-control mr-sm-2 empty "
-            type="search"
-            placeholder="Ara"
+            class="form-control empty 
+            type ="search"
+            placeholder="   Ara"
             style="font-family: Arial, FontAwesome; height: 28px; width: 216px"
             aria-label="Search"
           />
         </form>
       </div>
-      <div class="collapse navbar-collapse ml-5 mt-2 d-sm-none d-md-block">
-        <ul class="navbar-nav ">
-          <li class="nav-item active">
+      <div class="collapse navbar-collapse d-flex flex-row-reverse mt-2">
+        <ul class="navbar-nav">
+          <li class="nav-item active d-none d-sm-block">
             <a class="nav-link" href="#"
               ><i class="fas fa-home fa-lg mr-2 d-none d-sm-block mt-1"></i>
               <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-none d-sm-block">
             <a class="nav-link" href="#"
               ><i
                 class="fab fa-facebook-messenger fa-lg mr-2 mt-1"
@@ -63,17 +63,17 @@
               ></i
             ></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-none d-sm-block">
             <a class="nav-link" href="#"
               ><i class="far fa-compass fa-lg mr-2 mt-1" style="color: black"></i
             ></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-none d-sm-block">
             <a class="nav-link" href="#"
               ><i class="far fa-heart fa-lg mr-2 mt-1" style="color: black"></i
             ></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-none d-sm-block">
             <a class="nav-link" href="https://www.instagram.com/cengizcmataraci" target="_blank"
               ><img
                 src="https://picsum.photos/id/90/300/300"
@@ -88,7 +88,7 @@
 
     <div class="container middlearea py-5 mt-2">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 mt-2">
+        <div class="col-xs-12 col-sm-6 mt-2 offset-md-2">
           <div class="card">
             <div class="card-body">
                 <div class="row pr-2 pl-2 d-flex justify-content-between">
@@ -199,12 +199,12 @@
                   ></i
                 ></a>
               </li>
-              <span class="">
+              <span class="offset-md-7">
                 <li class="nav-item ml-4">
                   <a class="nav-link ml-2" href="#"
                     ><i
-                      class="far fa-bookmark fa-lg"
-                      style="color: black; position: relative; font-size: 23px"
+                      class="far fa-bookmark fa-lg "
+                      style="color: black; position: relative; font-size: 23px;"
                     ></i
                   ></a>
                 </li>
@@ -332,7 +332,7 @@
                   ></i
                 ></a>
               </li>
-              <span class="">
+              <span class="offset-md-7">
                 <li class="nav-item ml-4">
                   <a class="nav-link ml-2" href="#"
                     ><i
@@ -465,7 +465,7 @@
                   ></i
                 ></a>
               </li>
-              <span class="">
+              <span class="offset-md-7">
                 <li class="nav-item ml-4">
                   <a class="nav-link ml-2" href="#"
                     ><i
@@ -544,7 +544,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-3 mt-2">
+        <div class="col-sm-4 mt-2">
           <div
             class="card col-xs-12 rightpanel "
             id="sticky-sidebar"
